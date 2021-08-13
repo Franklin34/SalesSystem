@@ -416,3 +416,4 @@ C:\Users\Usuario\Documents\GitHub\SalesSystem\SalesSystem\obj\Debug\netcoreapp3.
 C:\Users\Usuario\Documents\GitHub\SalesSystem\SalesSystem\obj\Debug\netcoreapp3.0\SalesSystem.pdb
 C:\Users\Usuario\Documents\GitHub\SalesSystem\SalesSystem\obj\Debug\netcoreapp3.0\SalesSystem.genruntimeconfig.cache
 C:\Users\Usuario\Documents\GitHub\SalesSystem\SalesSystem\obj\Debug\netcoreapp3.0\SalesSystem.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\SalesSystem\SalesSystem\obj\Debug\netcoreapp3.0\Razor\Areas\Users\Views\_ViewImports.cshtml.g.cs

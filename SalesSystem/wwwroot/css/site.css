@@ -63,7 +63,10 @@ button.accept-policy {
 .imageUser {
     max-width: 80%;
 }
-
+.imageUsers {
+    max-width: 80%;
+    height: 100px;
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {

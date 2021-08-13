@@ -87,7 +87,7 @@ namespace SalesSystem.Libreria
                     pagi_navegacion += "<a class='btn btn-default' href='" + host + "/" + controller + "/" + 
                         action + "?id=" + pagi_i + "&registros=" + pagi_cuantos + "&area=" + area + "'>" + 
                         pagi_i + " </a>";
-                }
+                }       
             }
             if (pagi_actual < pagi_totalPags)
             {
@@ -103,7 +103,21 @@ namespace SalesSystem.Libreria
                         action + "?id=" + pagi_url + "&registros=" + pagi_cuantos + "&area=" + area + "'>" +
                         pagi_nav_ultima + " </a>";
             }
-            return null;
+
+            //Obtencion de los registros que se mostraran en la pagina actual
+
+            //Calculamos desde que registro se mostrara en esta pagina
+            //El conteo empieza desde 0
+
+            int pagi_inicial = (pagi_actual - 1) * pagi_cuantos;
+            //Consulta SQL. Devuelve cantidad de registros empezando desde pagi_actual
+
+            var query = table.Skip(pagi_inicial).Take(pagi_cuantos).ToList();
+            String pagi_info = " del <b>" + pagi_actual + "</b> al <b>" + pagi_totalPags + "</b> de <b>" +
+                pagi_totalReg + "</b> <b>/" + pagi_cuantos + " <b/>";
+            object[] data = { pagi_info, pagi_navegacion,query };
+
+            return data;
         }
     }
 }
