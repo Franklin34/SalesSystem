@@ -61,17 +61,20 @@ button.accept-policy {
 }
 
 .imageUser {
-    max-width: 80%;
+    max-width: 100%;
 }
 .imageUsers {
-    max-width: 80%;
+    max-width: 100%;
     height: 100px;
+}
+.imageUserDetails {
+    max-width: 70%;
 }
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {

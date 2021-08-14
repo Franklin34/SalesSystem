@@ -26,8 +26,15 @@ using SalesSystem.Areas.Users.Pages;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Usuario\Documents\GitHub\SalesSystem\SalesSystem\Areas\Users\Pages\_ViewImports.cshtml"
+using Newtonsoft.Json;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5a5d1c6ecbdd692c013128775448f37e606ca0ac", @"/Areas/Users/Pages/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"09ea2f6c68ef78401444699d60073453f00494d0", @"/Areas/Users/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d0cb575982c343e0303eccd4a0068616b2e778cb", @"/Areas/Users/Pages/_ViewImports.cshtml")]
     public class Areas_Users_Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
